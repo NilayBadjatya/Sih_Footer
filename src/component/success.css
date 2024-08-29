@@ -143,13 +143,7 @@
     /* Space between rows */
 }
 
-.btn-primary {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    /* Gradient button */
-    border: none;
-}
-
-.btn-primary:hover {
-    background: linear-gradient(to right, #2575fc, #6a11cb);
-    /* Inverse gradient on hover */
+.card-body a {
+    text-decoration: none;
+    color: #FF7426;
 }
