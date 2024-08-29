@@ -1,0 +1,155 @@
+* {
+    font-family: 'Roboto', Times, serif;
+}
+
+.top-portion {
+    background-color: #FDF8EE !important;
+}
+
+.navbar {
+    background-color: #FDF8EE !important;
+    margin-top: -24px;
+}
+
+.navbar-nav {
+    margin-right: 70px;
+}
+
+.nav-link {
+    margin: 0 15px;
+}
+
+.cardd input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 40px 0 0 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.cardd button {
+    width: auto;
+    background-color: #4D2C5E;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    margin-left: -10px;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.cardd button:hover {
+    background-color: #FF8C00;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 5rem;
+    height: auto;
+}
+
+.logo-text {
+    margin-top: 50px;
+    font-size: large;
+}
+
+.dropdown {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.qbtn {
+    border: 2px solid #000;
+    /* Example: black border with 2px thickness */
+    border-radius: 5px;
+    /* Optional: rounded corners */
+    padding: 10px 20px;
+    /* Optional: padding inside the button */
+    background-color: #fff;
+    /* Optional: background color */
+    color: #000;
+    /* Optional: text color */
+    cursor: pointer;
+    /* Optional: pointer cursor on hover */
+}
+
+/* Card */
+.card {
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Smooth transitions */
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    /* Rounded corners for the top-left */
+    border-top-right-radius: 8px;
+    /* Rounded corners for the top-right */
+    object-fit: cover;
+    /* Ensures image covers the card area */
+    height: 200px;
+    /* Fixed height for images */
+}
+
+.card-body {
+    padding: 20px;
+    /* Padding inside the card */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* Larger title font */
+    margin-bottom: 10px;
+    /* Space below the title */
+}
+
+.card-text {
+    font-size: 0.875rem;
+    /* Slightly smaller text */
+    color: #555;
+    /* Darker text color for readability */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Primary button color */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners for the button */
+    padding: 10px 15px;
+    /* Padding inside the button */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slightly zoom in on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Increase shadow on hover */
+}
+
+.row {
+    margin-bottom: 20px;
+    /* Space between rows */
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    /* Gradient button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    /* Inverse gradient on hover */
+}
